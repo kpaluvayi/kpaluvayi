@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\Sparcpoint.DataLayer.csproj" />
+    <ProjectReference Include="..\Sparcpoint.DataLayer\Sparcpoint.DataLayer.csproj" />
+    <ProjectReference Include="..\Sparcpoint.Mappers\Sparcpoint.Mappers.csproj" />
+    <ProjectReference Include="..\Sparcpoint.Models\Sparcpoint.Models.csproj" />
+  </ItemGroup>
+
+</Project>
